@@ -1,0 +1,33 @@
+[
+    {
+        "id":"1",
+        "pregunta":"¿Por dónde ingresan los vehículos de obra y luego en la planta cuando esta esté en servicio?",
+        "respuesta":"Respuesta de Sanear: El ingreso de los vehículos de obra y luego cuando la planta esté en operación será por calle Alvear. Los camiones atmosféricos entrarán por la calle Alvear y luego tomarán la calle Posta de Morales para ingresar por la entrada de camiones."
+    },
+    {   "id":"2",
+        "pregunta":"¿Qué se hacen con los desechos que se sacan de la planta? ¿Se podrá utilizar el río aguas abajo para actividades de contacto directo?",
+        "respuesta":"Respuesta de Sanear: La basura extraída de la red cloacal y los lodos resultantes del proceso se recolectan y envían a disposición final en el CEAMSE.La planta está diseñada para descargar un efluente con un máximo de 15 mg/l de DBO5, lo cual significa que entraría en la categoría III – Apta para actividades recreativas sin contacto indirecto según lo indicado por el ADA. En condiciones de operación óptimas, se podrían conseguir descargas entre 8 y 10 mg/l de DBO5, lo cual entraría en la categoría II – Apta para actividades recreativas con contacto directo."
+    }
+    ,
+    {   "id":"3",
+        "pregunta":"Si se inunda la ciudad como en el 2009. ¿Qué sucede con la planta?",
+        "respuesta":"Respuesta de Sanear: Se desconoce con exactitud el nivel de inundación al que se hace referencia, pero aun así se explica que la planta está diseñada para operar con el predio anegado hasta 1,3 m por sobre el nivel de terreno natural."
+    }
+    ,
+    {   "id":"4",
+        "pregunta":"¿La planta de tratamiento, va a tratar residuos domiciliarios e industriales?",
+        "respuesta":"Respuesta de Sanear: La planta no está preparada para el tratamiento de residuos industriales, solo para domiciliarios y similares a domiciliarios que cumplan con el DBO requerido. Las empresas que quieran descargas sus efluentes deberán realizar la habilitación de descarga con Sanear."
+    }
+    ,
+    {   "id":"5",
+        "pregunta":"¿Cuándo decimos de cuarenta mil habitantes, de cuántas conexiones domiciliarias estamos hablando?",
+        "respuesta":"Respuesta de Sanear: Al decir cuarenta mil habitantes se tuvo en cuenta el crecimiento poblacional de veinte años. La cantidad de conexiones va a depender de la población que existirá en ese momento y de la forma en que se conecten a la red cloacal."
+    }
+    ,
+    {   "id":"6",
+        "pregunta":"…hoy decían que el aumento de líquido a la planta estaba preparada para que no se colapsara, quería saber si ¿los desagües pluviales hace referencia a las bocas de tormentas?",
+        "respuesta":"Respuesta de Sanear: El agua pluvial y el agua cloacal tiene que ir por canales diferentes. Las conexiones domiciliarias del pluvial al cloacal son ilegales y se está trabajando para acomodarlas. Los días de lluvia hay mucho más ingreso de líquido diluido a la planta por eso se tiene ese margen para poder trabajar sin inconvenientes.La planta tiene capacidad para pretratar una cantidad considerable del caudal infiltrado durante una precipitación antes de enviarlo al bypass de planta."
+    }
+    
+
+]
