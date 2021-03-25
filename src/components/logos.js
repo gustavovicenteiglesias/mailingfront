@@ -46,8 +46,8 @@ const Logo=()=>{
              <img
                 alt=""
                 src={sanear}
-                width="120"
-                height="80"
+                width="140"
+                height="100"
 
                 />
               </div> 

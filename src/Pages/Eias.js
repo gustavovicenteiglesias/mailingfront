@@ -9,7 +9,7 @@ class Eias extends React.Component{
        this.state = {
         link:[
             {href:'Https://drive.google.com/file/d/1uqd3soUNRHeojCDvXBnehGO2wu9MU3yY/view?usp=sharing',title1:'a. EIA - BID v_07-Completo con Anexos-Firmado.pdf'},
-            {href:Barrio,title1:'b.Estudio de Impacto Ambiental Barrio Don PanchoL'}
+            {href:Barrio,title1:'b.Estudio de Impacto Ambiental Barrio Don Pancho'}
           ]
           };
   }

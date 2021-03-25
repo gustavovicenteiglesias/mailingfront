@@ -8,7 +8,7 @@ class Informe extends React.Component{
         super(props);
        this.state = {
         link:[
-            {href:informe,title1:'a. Anexo XII, informe de la audiencia publica'}
+            {href:informe,title1:'a. Anexo XII, informe de la audiencia pública '}
             
           ]
           };

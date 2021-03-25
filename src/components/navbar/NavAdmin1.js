@@ -132,12 +132,12 @@ class NavAdmin extends React.Component{
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav " className="buttton-nav">
                 <Nav className="mr-auto ml-0 mt-0 " >
-                <Button href="/home" variant="nav" >INICIO</Button>
-                <Button href="/resumendeobra" variant="nav" >RESUMEN DE OBRA </Button>
-                <Button href="/eias" variant="nav" >ESTUDIO DE IMPACTO AMBIENTAL Y SOCIA </Button>
-                <Button href="/informe" variant="nav" >INFORME DE LA CONSULTA PUBLICA AÑO 2017 </Button>
-                <Button href="/habilitaciones" variant="nav" >HABILITACIONES Y PERMISOS </Button>
-                <Button href="/faq" variant="nav" >PREGUNTAS FRECUENTES </Button>
+                <Button href="/home" variant="nav" ><p style={{textAlign:"center"}}>INICIO</p></Button>
+                <Button href="/resumendeobra" variant="nav" > <p style={{textAlign:"center"}}>RESUMEN DE OBRA</p> </Button>
+                <Button href="/eias" variant="nav" ><p style={{textAlign:"center"}}>ESTUDIO DE IMPACTO AMBIENTAL Y SOCIAL</p></Button>
+                <Button href="/informe" variant="nav" ><p style={{textAlign:"center"}}>INFORME DE LA CONSULTA PUBLICA AÑO 2017 </p></Button>
+                <Button href="/habilitaciones" variant="nav" ><p style={{textAlign:"center"}}>HABILITACIONES Y PERMISOS</p> </Button>
+                <Button href="/faq" variant="nav" ><p style={{textAlign:"center"}}>PREGUNTAS FRECUENTES</p> </Button>
                 </Nav>
                
             </Navbar.Collapse>

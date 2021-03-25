@@ -30,7 +30,7 @@ const Footer = ()=>{
                 <h5 className="footer-text-grande" style={{marginTop : 10}}>Lavalle 363 – San Antonio de Areco</h5>
                 <h5 className="footer-text-grande">Tel.: (02326) 456202/454722</h5>
                 <h5 className="footer-text-grande" >
-                    <a style={{color: '#ffffff'}}  href="mailto:comunicacion@areco.gob.ar">comunicacion@areco.gob.ar</a>
+                    <a style={{color: '#ffffff'}}  href="mailto:participacionciudadana@areco.gob.ar">participacionciudadana@areco.gob.ar</a>
                 </h5>
             </Col>
             <Col md={4} >
@@ -68,7 +68,7 @@ const Footer = ()=>{
                 <h5 className="footer-text">Lavalle 363 – San Antonio de Areco</h5>
                 <h5 className="footer-text">Tel.: (02326) 456202/454722</h5>
                 <h5 className="footer-text" >
-                    <a style={{color: '#ffffff'}}  href="mailto:comunicacion@areco.gob.ar">comunicacion@areco.gob.ar</a>
+                    <a style={{color: '#ffffff'}}  href="mailto:participacionciudadana@areco.gob.ar">participacionciudadana@areco.gob.ar</a>
                 </h5>
             </Col>
           

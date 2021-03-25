@@ -12,7 +12,7 @@ class Habilitaciones extends React.Component{
         super(props);
        this.state = {
         link:[
-            {href:declaracion,title1:'a. Declaración de impacto ambiental (declaracio EIA.PDF)'},
+            {href:declaracion,title1:'a. Declaración de impacto ambiental '},
             {href:electrica,title1:'b. Factibilidad eléctrica'},
             {href:pre,title1:'c. Prefactibilidad de Vuelco de Efluentes Líquidos Cloacales diciembre de 2020 (CE – 2020-29207995-DGEBA-DPGHADA)'},
             {href:camiones,title1:'d. Autorización vuelco camiones'},
