@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Card, Col, Container,Jumbotron, Row } from 'react-bootstrap';
 import Barrio from "../assest/pdfs/3. EIA - Anexo I Barrio Don Pancho.pdf";
-
+import Logo from "../components/logos";
 
 class Eias extends React.Component{
     constructor(props){
@@ -19,10 +19,12 @@ class Eias extends React.Component{
 render(){
     return(
         <Container>
+           
         <div style={{textAlign:"center",marginBottom:"30px"}}>
           
            <h3>ESTUDIO DE IMPACTO AMBIENTAL Y SOCIAL</h3>
         </div>
+        <Logo></Logo>
         {this.state.link.map((data,i)=>{
 
             return(

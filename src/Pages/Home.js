@@ -1,8 +1,9 @@
 import React from 'react';
 import { Button, Card, Col, Container,Jumbotron, Row } from 'react-bootstrap';
-
-
-
+import Logo from "../components/logos";
+import antes from "../assest/images/web/antes.png";
+import despues from "../assest/images/web/despues.png";
+//import flayer from "../assest/images/web/flayer.jpg";
 class Home extends React.Component{
     constructor(props){
         super(props);
@@ -22,9 +23,48 @@ class Home extends React.Component{
 render(){
     return(
         <Container>
+            <div style={{textAlign:"center",marginBottom:"30px"}}>
+            <h3>AMPLIACIÓN DE PLANTA DE TRATAMIENTO DE EFLUENTES CLOACALES DE SAN ANTONIO DE ARECO</h3>
+            </div>
+             
+            <Logo></Logo>
+            
+            <Col>
+            <Row className="mt- mb-4">
+            <Col md={6}>
+            <img
+                alt=""
+                src={antes}
+                width="80%"
+                height="250"
+                style={{marginLeft:"38px"}}
+
+                /> 
+            <h4 style={{textAlign:"center"}}>Planta Actual</h4>
+            </Col>
+            <Col md={6}>
+            <img
+                alt=""
+                src={despues}
+                width="100%"
+                height="250"
+                
+                /> 
+            <h4 style={{textAlign:"center"}}>Planta Poyectada</h4>
+            </Col>
+        </Row>
         <div style={{textAlign:"center",marginBottom:"30px"}}>
-           <h3>AMPLIACIÓN DE PLANTA DE TRATAMIENTO DE EFLUENTES CLOACALES DE SAN ANTONIO DE ARECO</h3>
+          
+            <div style={{background:"rgba(153, 198, 187, 0.99)"}}>
+            <p style={{fontWeight:"bold",color:"white "}}>
+                El GOBIERNO NACIONAL –a través del ENHOSA- se encuentra impulsando la obtención de financiamiento ante el  Banco Interamericano de Desarrollo (BID) para la ampliación de  la PLANTA DE TRATAMIENTO DE EFLUENTES CLOACALES de San Antonio de Areco, por un monto de $ 1.412.574.099,64.
+                En ese marco, el Municipio iniciará un proceso de actualización de la Consulta Pública realizada en diciembre de 2017 a través de una comunicación masiva virtual con el objetivo de que la comunidad conozca el proyecto, su impacto ambiental y social y las medidas de mitigación, generando además una instancia para que vecinos, vecinas y partes interesadas formulen consultas acerca del proyecto.
+                En este sitio accederás a los documentos con la información relevante del proyecto, el Estudio de  Impacto Ambiental, las habilitaciones obtenidas, el informe sobre el desarrollo de la Audiencia Pública realizada en diciembre de 2017 y al formulario para formular consultas que serán contestadas por las autoridades de SANEAR y el Asistente Técnico
+            </p>
+            </div>
         </div>
+        </Col>
+        
         {this.state.link.map((data,i)=>{
 
             return(

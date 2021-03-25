@@ -7,7 +7,8 @@ import desplegar from "../assest/images/web/desplegable.png";
 import data from "../components/preguntas.json"
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Servicio from "../service/consultas"
+import Servicio from "../service/consultas";
+import Logo from "../components/logos";
 class Home extends React.Component{
     constructor(props){
         super(props);
@@ -46,9 +47,10 @@ class Home extends React.Component{
 render(){
     return(
         <Container style={{minHeight:"450px"}}>
+           
             <div style={{textAlign:"center",marginBottom:"30px"}}><h3>AMPLIACIÓN DE PLANTA DE TRATAMIENTO DE EFLUENTES CLOACALES DE SAN ANTONIO DE ARECO</h3></div>
             <div style={{textAlign:"center",marginBottom:"30px"}}><h3>Preguntas Frecuentes</h3></div>
-            
+            <Logo></Logo>
             {data.map((dato,i)=>{
                 return(
                     <>

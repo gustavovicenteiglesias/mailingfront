@@ -3,7 +3,7 @@ import { Button, Card, Col, Container,Jumbotron, Row } from 'react-bootstrap';
 import declaracion from "../assest/pdfs/6. Declaracion EIA.PDF";
 import electrica from "../assest/pdfs/8. Factibilidad Electrica.pdf";
 import pre from "../assest/pdfs/CE-2020-29207995-GDEBA-DPGHADA certificado complementario (3).pdf";
-
+import Logo from "../components/logos";
 import camiones from "../assest/pdfs/10. Resolucion para Vuelco de Camiones Atmosfericos.pdf";
 
 
@@ -28,10 +28,12 @@ render(){
     return(
         
         <Container>
+           
         <div style={{textAlign:"center",marginBottom:"30px"}}>
           
            <h3>HABILITACIONES Y PERMISOS</h3>
         </div>
+        <Logo></Logo>
         {this.state.link.map((data,i)=>{
 
             return(

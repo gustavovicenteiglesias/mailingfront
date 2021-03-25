@@ -5,13 +5,14 @@ import fotografico from "../assest/pdfs/2. AnexoFotográfico.pdf";
 import pca from "../assest/pdfs/4. PCA EIA SanAntonio.pdf";
 import analisis from "../assest/pdfs/2021-03-02-Areco-Analisis de precio (2).pdf";
 import proyeccion from "../assest/pdfs/9. Proyeccion Poblacional 2040.pdf";
+import Logo from "../components/logos";
 class Resumen extends React.Component{
     constructor(props){
         super(props);
        this.state = {
         link:[
             {href:resumen,title1:'a. Resumen de la obra (PPT)'},
-            {href:fotografico,title1:'b. Anexo fotográficoL'},
+            {href:fotografico,title1:'b. Anexo fotográfico'},
             {href:'https://drive.google.com/file/d/1iPgBVb45wzRTeFDRlP-QDG28bAbDV-89/view?usp=sharing',title1:'c. Planta de Tratamiento – Recorrido (animación digital)'},
           
           ]
@@ -23,10 +24,12 @@ class Resumen extends React.Component{
 render(){
     return(
         <Container>
+           
         <div style={{textAlign:"center",marginBottom:"30px"}}>
           
            <h3>RESUMEN DE LA OBRA</h3>
         </div>
+        <Logo></Logo>
         {this.state.link.map((data,i)=>{
 
             return(

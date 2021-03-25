@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavAdmin from './components/navbar/NavAdmin1';
 import Footer from './components/Footer';
-
+import Logos from "./components/logos"
 import './App.css';
 
 function App() {
@@ -20,8 +20,9 @@ function App() {
        webkitallowfullscreen="" 
        mozallowfullscreen="" 
        allowfullscreen="" 
-       style={{height: "57px",transition:" height 0.3s ease 0s", display: "none"}}></iframe>
+      style={{height: "57px",transition:" height 0.3s ease 0s", display: "none"}}></iframe>
       <NavAdmin/>
+      
       <Footer></Footer>
    </div>
   );

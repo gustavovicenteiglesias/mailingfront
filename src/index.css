@@ -1,15 +1,15 @@
 
 @font-face {
-  font-family: "LibreBaskerville-Regular";
-  src: local("LibreBaskerville-Regular"),
-    url("./fonts/LibreBaskerville-Regular.ttf") format("truetype");
+  font-family: "Roboto-Italic";
+  src: local("Roboto-Italic"),
+    url("./fonts/Roboto-Italic.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "LibreBaskerville-Bold";
-  src: local("LibreBaskerville-Bold"),
-    url("./fonts/LibreBaskerville-Bold.ttf") format("truetype");
+  font-family: "Roboto-BoldItalic";
+  src: local("Roboto-BoldItalic"),
+    url("./fonts/Roboto-BoldItalic.ttf") format("truetype");
   font-weight: normal;
 }
 

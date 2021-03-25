@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Card, Col, Container,Jumbotron, Row } from 'react-bootstrap';
 import informe from "../assest/pdfs/Anexo XII - Informe de consulta pública (1).pdf";
-
+import Logo from "../components/logos";
 
 class Informe extends React.Component{
     constructor(props){
@@ -19,10 +19,12 @@ class Informe extends React.Component{
 render(){
     return(
         <Container style={{minHeight:'400px'}}>
+           
         <div style={{textAlign:"center",marginBottom:"30px"}}>
           
            <h3> INFORME DE LA CONSULTA PUBLICA AÑO 2017</h3>
         </div>
+        <Logo></Logo>
         {this.state.link.map((data,i)=>{
 
             return(

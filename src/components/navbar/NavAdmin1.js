@@ -9,7 +9,7 @@ import Eias from "../../Pages/Eias";
 import Habilitaciones from "../../Pages/Habilitaciones";
 import Resumen from "../../Pages/Resumen";
 import Informe from "../../Pages/Informe";
-import logo1 from "../../assest/images/web/Elementos Web-01.png";
+import logo1 from "../../assest/images/web/Logo Muni 2021 letra blanca-01.png";
 import logo from "../../assest/images/web/Elementos Web-01.png";
 import face from "../../assest/images/web/Elementos Web-03.png";
 import youtube from "../../assest/images/web/Elementos Web-04.png";
@@ -17,6 +17,7 @@ import radiopampa from "../../assest/images/web/Elementos Web-02.png";
 import pause from "../../assest/images/header-imagenes/pause.png";
 import instagram from "../../assest/images/web/Elementos Web-05.png";
 import twitter from "../../assest/images/web/Elementos Web-06.png";
+
 import PlayPause from  '../PlayPause';
 
 
@@ -72,12 +73,13 @@ class NavAdmin extends React.Component{
                 <Row className="header-text"> 
                     <img
                                 alt=""
-                                src={logo}
+                                src={logo1}
                                 width="80"
-                                height="100"
+                                height="80"
                                 className="menu-logo"
-                            /> 
-                    <h4 className="menu-titulo">San Antonio de Areco</h4>
+                            />
+                    
+                   <h4 className="menu-titulo">San Antonio de Areco</h4>
                 </Row>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -85,7 +87,7 @@ class NavAdmin extends React.Component{
            <Nav className="mr-auto  " >
             
             </Nav>
-            <div >
+           { /*<div >
                 <Col>
                 <a className="btn-icon active text-secondary ml-4" href="https://www.facebook.com/municipioareco" target="_blank" rel="noopener noreferrer">
                 <img alt=""  src={face} width='50' height='50'/>
@@ -109,7 +111,7 @@ class NavAdmin extends React.Component{
                 <p className='envivo'>EN VIVO</p>
                 </a>
                
-             </div>
+             </div>*/}
             </Navbar.Collapse>
             </Navbar>
 
@@ -123,6 +125,7 @@ class NavAdmin extends React.Component{
                             height="80"
                             className="menu-logo-chico"
                         /> 
+                  
                 <h5 className="">San Antonio de Areco</h5>
               
             </Navbar.Brand>

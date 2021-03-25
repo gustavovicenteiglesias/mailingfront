@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import logo from '../assest/images/logofull.png';
+import logo from '../assest/images/web/Logo Muni 2021 letra blanca-01.png';
 import {  Link } from "react-router-dom";
 import Redes from './Redes'
 import './Footer.css';
