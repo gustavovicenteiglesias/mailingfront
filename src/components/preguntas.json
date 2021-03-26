@@ -27,7 +27,27 @@
     {   "id":"6",
         "pregunta":"…hoy decían que el aumento de líquido a la planta estaba preparada para que no se colapsara, quería saber si ¿los desagües pluviales hace referencia a las bocas de tormentas?",
         "respuesta":"Respuesta de Sanear: El agua pluvial y el agua cloacal tiene que ir por canales diferentes. Las conexiones domiciliarias del pluvial al cloacal son ilegales y se está trabajando para acomodarlas. Los días de lluvia hay mucho más ingreso de líquido diluido a la planta por eso se tiene ese margen para poder trabajar sin inconvenientes.La planta tiene capacidad para pretratar una cantidad considerable del caudal infiltrado durante una precipitación antes de enviarlo al bypass de planta."
+    },
+    {   "id":"7",
+        "pregunta":"¿ EL MUNICIPIO DEBERÁ DEVOLVER EL MONTO RECIBIDO DEL BID ?",
+        "respuesta":"EL FINANCIAMIENTO DE LA OBRA LO REALIZA EL ESTADO NACIONAL A TRAVÉS DEL ENOHSA Y EL PAGO DE MONTO CORRE POR CUENTA DEL ESTADO NACIONAL"
+    },
+    {   "id":"8",
+        "pregunta":"¿ LA NUEVA PLANTA MEJORARÁ LA CALIDAD DEL EFLUENTE A DESCARGAR EN EL RIO ARECO ? ",
+        "respuesta":"EL FINANCIAMIENTO DE LA OBRA LO REALIZA EL ESTADO NACIONAL A TRAVÉS DEL ENOHSA Y EL PAGO DE MONTO CORRE POR CUENTA DEL ESTADO NACIONAL"
+    },
+
+    {   "id":"9",
+        "pregunta":"¿CUAL ES EL PLAZO ESTIMADO LA EJECUCIÓN DE LA OBRA AFECTARÁ EL FUNCIONAMIENTO DE LA ACTUAL PLANTA FUNCIONAMIENTO?",
+        "respuesta":"EL PLAZO DE OBRA ESTIMADO SON 24 MESES + 12 MESES DE OPERACIÓN DE LA PLANTA. LAS UNIDADES DE LA PLANTA ACTUAL EN FUNCIONAMIENTO NO SE VERÁ AFECTADA POR LA IMPLANTACIÓN DE LAS NUEVAS UNIDADES, YA QUE SEGIRÁ OPERANDO NORMALMENTE MIENTRAS SE FABRICAN LAS NUEVAS UNIDADES. LA INTEGRACIÓN SE REALIZARÁ AL FINAL DE OBRA. EN EL DISEÑO SE TUVO EN CUENTA LA MANIOBRA DE INTEGRACIÓN."
+    },
+    {   "id":"10",
+        "pregunta":"¿ SE PRIORIZARA LA CONTRATACIÓN DE PROVEEDORES Y MANO DE OBRA LOCAL ?",
+        "respuesta":"SI, POR UN TEMA SOCIAL Y TAMBIÉN DE COSTOS FIJOS, ES IMPORTANTE Y NECESARIO PODER CONTRATAR LA MAYOR CANTIDAD DE MANO DE OBRA Y PROVEEDORES LOCALES Y/O DE CIUDADES ALEDAÑAS"
+    },
+    {   "id":"11",
+        "pregunta":"VIDA ÚTIL",
+        "respuesta":"LA PLANTA FUE PROYECTADA PARA ABSORVER UNA POBLACIÓN PROYECTADA DE 25 AÑOS (CRECIMIENTO POBLACIONAL) - LAS UNIDADES DE LA PLANTA (CIVILES Y ELECTROMECÁNICAS) REALIZANDOLE EL MANTENIEMIENTO CORRESPONDIENTE Y RESPETANDO LOS PERIODOS PUEDEN ALCANZAR LOS 50 AÑOS. eN CASO DE MANTENER LA VIDA ÚTIL POR ENCIMA DE LOS 25 AÑOS, SEGURAMENTE LA CAPACIDAD DE TRATAMIENTO SE VEA AFECTADA POR EL AUMENTO DE LA POBLACIÓN Y ESO IMPLICARÍA UN IMPACTO DIRECTO EN LA CALIDAD DEL EFLUENTE. LLEGADO EL MOMENTO SE DEBERÁ ANALIZAR LA POSIBILIDAD DE AGREGAR UNIDADES O CAMBIAR LA TECNOLOGÍA DE LOS EQUIPOS DE TRATAMIENTO."
     }
     
-
 ]

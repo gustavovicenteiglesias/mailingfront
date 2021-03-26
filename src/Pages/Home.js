@@ -50,7 +50,7 @@ render(){
                 height="250"
                 
                 /> 
-            <h4 style={{textAlign:"center"}}>Planta Poyectada</h4>
+            <h4 style={{textAlign:"center"}}>Planta Proyectada</h4>
             </Col>
         </Row>
         <div style={{textAlign:"center",marginBottom:"30px"}}>

@@ -15,7 +15,7 @@ class Home extends React.Component{
         this.desplegar=this.desplegar.bind(this);
          
         this.state = {
-           visible:[true,true,true,true,true,true,true],
+           visible:[true,true,true,true,true,true,true,true,true,true,true,true],
           };
             
    }
