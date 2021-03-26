@@ -13,7 +13,7 @@ class Home extends React.Component{
             {href:'eias',title1:'2-ESTUDIO DE IMPACTO AMBIENTAL Y SOCIAL'},
             {href:'informe',title1:'3-INFORME DE LA CONSULTA PUBLICA AÑO 2017'},
             {href:'habilitaciones',title1:'4-HABILITACIONES Y PERMISOS'},
-            {href:'faq',title1:'5-PREGUNTAS FRECUENTES'}
+            {href:'faq',title1:'5-PREGUNTAS FRECUENTES y CONSULTAS '}
           ]
           };
   }
@@ -57,9 +57,9 @@ render(){
           
             <div style={{background:"rgba(153, 198, 187, 0.99)"}}>
             <p style={{fontWeight:"bold",color:"white "}}>
-                El GOBIERNO NACIONAL –a través del ENHOSA- se encuentra impulsando la obtención de financiamiento ante el  Banco Interamericano de Desarrollo (BID) para la ampliación de  la PLANTA DE TRATAMIENTO DE EFLUENTES CLOACALES de San Antonio de Areco, por un monto de $ 1.412.574.099,64.
-                En ese marco, el Municipio iniciará un proceso de actualización de la Consulta Pública realizada en diciembre de 2017 a través de una comunicación masiva virtual con el objetivo de que la comunidad conozca el proyecto, su impacto ambiental y social y las medidas de mitigación, generando además una instancia para que vecinos, vecinas y partes interesadas formulen consultas acerca del proyecto.
-                En este sitio accederás a los documentos con la información relevante del proyecto, el Estudio de  Impacto Ambiental, las habilitaciones obtenidas, el informe sobre el desarrollo de la Audiencia Pública realizada en diciembre de 2017 y al formulario para formular consultas que serán contestadas por las autoridades de SANEAR y el Asistente Técnico
+            El GOBIERNO NACIONAL –a través del ENHOSA- se encuentra impulsando la obtención de financiamiento ante el  Banco Interamericano de Desarrollo (BID) para la ampliación de  la PLANTA DE TRATAMIENTO DE EFLUENTES CLOACALES de San Antonio de Areco, por un monto de $ 1.412.574.099,64.
+En ese marco, el Municipio ha iniciado un proceso de actualización de la Consulta Pública realizada en diciembre de 2017 a través de una comunicación masiva virtual con el objetivo de que la comunidad conozca el proyecto, su impacto ambiental y social y las medidas de mitigación, generando además una instancia para que vecinos, vecinas y partes interesadas formulen consultas acerca del proyecto.
+En este sitio  accederás a los documentos con la información relevante del proyecto y el resultado de la Audiencia Pública realizada en diciembre de 2017. Además se encuentra disponible un formulario para efectuar consultas, que serán contestadas por las autoridades de la Concesionaria de Servicios Sanitarios SANEAR y su Asistente Técnico.
             </p>
             </div>
         </div>

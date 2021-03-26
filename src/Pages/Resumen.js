@@ -2,10 +2,10 @@ import React from 'react';
 import { Button, Card, Col, Container,Jumbotron, Row } from 'react-bootstrap';
 import resumen from "../assest/pdfs/Resumen de la obra.pptx";
 import fotografico from "../assest/pdfs/2. AnexoFotográfico.pdf";
-import pca from "../assest/pdfs/4. PCA EIA SanAntonio.pdf";
-import analisis from "../assest/pdfs/2021-03-02-Areco-Analisis de precio (2).pdf";
-import proyeccion from "../assest/pdfs/9. Proyeccion Poblacional 2040.pdf";
+import genero from "../assest/pdfs/genero.jpeg";
+
 import Logo from "../components/logos";
+
 class Resumen extends React.Component{
     constructor(props){
         super(props);
@@ -14,7 +14,7 @@ class Resumen extends React.Component{
             {href:resumen,title1:'a. Resumen de la obra (PPT)'},
             {href:fotografico,title1:'b. Anexo fotográfico'},
             {href:'https://drive.google.com/file/d/1iPgBVb45wzRTeFDRlP-QDG28bAbDV-89/view?usp=sharing',title1:'c. Planta de Tratamiento – Recorrido (animación digital)'},
-          
+            {href:genero,title1: "e. Compromiso con la paridad de género "},
           ]
           };
   }
@@ -30,6 +30,7 @@ render(){
            <h3>RESUMEN DE LA OBRA</h3>
         </div>
         <Logo></Logo>
+
         {this.state.link.map((data,i)=>{
 
             return(

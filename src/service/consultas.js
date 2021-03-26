@@ -5,7 +5,7 @@ const anonimo={};
 anonimo.enviar=async(values)=>{
     const datos={
         id:0,
-        email:"giglesias@areco.gob.ar",
+        email:"participacionciudadana@areco.gob.ar",
         content:{
             id_cuerpo:0,
             email:values.email,
